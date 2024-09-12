@@ -37,7 +37,7 @@ const Products = () => {
   if (isError || !products) {
     return (
       <div className="text-center text-red-500 py-4">
-        Failed to fetch products
+        Fallo al buscar productos
       </div>
     );
   }
@@ -64,15 +64,14 @@ const Products = () => {
           className="flex items-center bg-blue-500 hover:bg-blue-700 text-gray-200 font-bold py-2 px-4 rounded"
           onClick={() => setIsModalOpen(true)}
         >
-          <PlusCircleIcon className="w-5 h-5 mr-2 !text-gray-200" /> Create
-          Product
+          <PlusCircleIcon className="w-5 h-5 mr-2 !text-gray-200" /> Crear Producto
         </button>
       </div>
 
       {/* BODY PRODUCTS LIST */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg-grid-cols-3 gap-10 justify-between">
         {isLoading ? (
-          <div>Loading...</div>
+          <div>Cargando...</div>
         ) : (
           products?.map((product) => (
             <div

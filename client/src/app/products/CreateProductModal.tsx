@@ -58,7 +58,7 @@ const CreateProductModal = ({
         <form onSubmit={handleSubmit} className="mt-5">
           {/* PRODUCT NAME */}
           <label htmlFor="productName" className={labelCssStyles}>
-            Product Name
+            Nombre del Producto
           </label>
           <input
             type="text"
@@ -72,7 +72,7 @@ const CreateProductModal = ({
 
           {/* PRICE */}
           <label htmlFor="productPrice" className={labelCssStyles}>
-            Price
+            Precio
           </label>
           <input
             type="number"
@@ -86,7 +86,7 @@ const CreateProductModal = ({
 
           {/* STOCK QUANTITY */}
           <label htmlFor="stockQuantity" className={labelCssStyles}>
-            Stock Quantity
+            Cantidad en Stock
           </label>
           <input
             type="number"
@@ -100,7 +100,7 @@ const CreateProductModal = ({
 
           {/* RATING */}
           <label htmlFor="rating" className={labelCssStyles}>
-            Rating
+            Clasificación
           </label>
           <input
             type="number"
@@ -117,14 +117,14 @@ const CreateProductModal = ({
             type="submit"
             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
           >
-            Create
+            Crear
           </button>
           <button
             onClick={onClose}
             type="button"
             className="ml-2 px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-700"
           >
-            Cancel
+            Cancelar
           </button>
         </form>
       </div>

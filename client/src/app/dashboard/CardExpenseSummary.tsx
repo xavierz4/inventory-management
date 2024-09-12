@@ -52,7 +52,7 @@ const CardExpenseSummary = () => {
           {/* HEADER */}
           <div>
             <h2 className="text-lg font-semibold mb-2 px-7 pt-5">
-              Expense Summary
+            Resumen de Gastos
             </h2>
             <hr />
           </div>
@@ -110,7 +110,7 @@ const CardExpenseSummary = () => {
               <div className="mt-3 flex justify-between items-center px-7 mb-4">
                 <div className="pt-2">
                   <p className="text-sm">
-                    Average:{" "}
+                  Promedio:{" "}
                     <span className="font-semibold">
                       ${expenseSummary.totalExpenses.toFixed(2)}
                     </span>

@@ -50,7 +50,7 @@ const CardSalesSummary = () => {
           {/* HEADER */}
           <div>
             <h2 className="text-lg font-semibold mb-2 px-7 pt-5">
-              Sales Summary
+              Resumen de Ventas
             </h2>
             <hr />
           </div>
@@ -80,9 +80,9 @@ const CardSalesSummary = () => {
                   setTimeframe(e.target.value);
                 }}
               >
-                <option value="daily">Daily</option>
-                <option value="weekly">Weekly</option>
-                <option value="monthly">Monthly</option>
+                <option value="daily">Diaria</option>
+                <option value="weekly">Semanal</option>
+                <option value="monthly">Mensual</option>
               </select>
             </div>
             {/* CHART */}
@@ -136,7 +136,7 @@ const CardSalesSummary = () => {
             <div className="flex justify-between items-center mt-6 text-sm px-7 mb-4">
               <p>{salesData.length || 0} days</p>
               <p className="text-sm">
-                Highest Sales Date:{" "}
+               Fecha de Mayor Venta:{" "}
                 <span className="font-bold">{highestValueDate}</span>
               </p>
             </div>
