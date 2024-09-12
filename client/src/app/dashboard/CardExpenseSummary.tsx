@@ -46,7 +46,7 @@ const CardExpenseSummary = () => {
   return (
     <div className="row-span-3 bg-white shadow-md rounded-2xl flex flex-col justify-between">
       {isLoading ? (
-        <div className="m-5">Loading...</div>
+        <div className="m-5">Cargando...</div>
       ) : (
         <>
           {/* HEADER */}

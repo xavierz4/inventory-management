@@ -121,25 +121,25 @@ const Sidebar = () => {
         <SidebarLink
           href="/products"
           icon={Clipboard}
-          label="Products"
+          label="Productos"
           isCollapsed={isSidebarCollapsed}
         />
         <SidebarLink
           href="/users"
           icon={User}
-          label="Users"
+          label="Userios"
           isCollapsed={isSidebarCollapsed}
         />
         <SidebarLink
           href="/settings"
           icon={SlidersHorizontal}
-          label="Settings"
+          label="Configuración"
           isCollapsed={isSidebarCollapsed}
         />
         <SidebarLink
           href="/expenses"
           icon={CircleDollarSign}
-          label="Expenses"
+          label="Gastos"
           isCollapsed={isSidebarCollapsed}
         />
       </div>

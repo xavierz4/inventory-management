@@ -77,7 +77,7 @@ const CreateProductModal = ({
           <input
             type="number"
             name="price"
-            placeholder="Price"
+            placeholder="Precio"
             onChange={handleChange}
             value={formData.price}
             className={inputCssStyles}
@@ -91,7 +91,7 @@ const CreateProductModal = ({
           <input
             type="number"
             name="stockQuantity"
-            placeholder="Stock Quantity"
+            placeholder="Cantidad en Stock"
             onChange={handleChange}
             value={formData.stockQuantity}
             className={inputCssStyles}
@@ -105,7 +105,7 @@ const CreateProductModal = ({
           <input
             type="number"
             name="rating"
-            placeholder="Rating"
+            placeholder="Clasificación"
             onChange={handleChange}
             value={formData.rating}
             className={inputCssStyles}

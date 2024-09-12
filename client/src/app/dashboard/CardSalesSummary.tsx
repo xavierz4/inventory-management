@@ -38,13 +38,13 @@ const CardSalesSummary = () => {
     : "N/A";
 
   if (isError) {
-    return <div className="m-5">Failed to fetch data</div>;
+    return <div className="m-5">Error en la obtención de datos</div>;
   }
 
   return (
     <div className="row-span-3 xl:row-span-6 bg-white shadow-md rounded-2xl flex flex-col justify-between">
       {isLoading ? (
-        <div className="m-5">Loading...</div>
+        <div className="m-5">Cargando...</div>
       ) : (
         <>
           {/* HEADER */}

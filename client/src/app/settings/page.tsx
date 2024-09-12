@@ -10,11 +10,11 @@ type UserSetting = {
 };
 
 const mockSettings: UserSetting[] = [
-  { label: "Username", value: "john_doe", type: "text" },
-  { label: "Email", value: "john.doe@example.com", type: "text" },
-  { label: "Notification", value: true, type: "toggle" },
-  { label: "Dark Mode", value: false, type: "toggle" },
-  { label: "Language", value: "English", type: "text" },
+  { label: "Nombre de Usuario", value: "Jose Soto", type: "text" },
+  { label: "Email", value: "jose.soto@example.com", type: "text" },
+  { label: "Notificacion", value: true, type: "toggle" },
+  { label: "Modo Oscuro", value: false, type: "toggle" },
+  { label: "Lenguage", value: "Español", type: "text" },
 ];
 
 const Settings = () => {
@@ -28,7 +28,7 @@ const Settings = () => {
 
   return (
     <div className="w-full">
-      <Header name="User Settings" />
+      <Header name="Configuración de Usuario" />
       <div className="overflow-x-auto mt-5 shadow-md">
         <table className="min-w-full bg-white rounded-lg">
           <thead className="bg-gray-800 text-white">
