@@ -92,7 +92,7 @@ const Expenses = () => {
     <div>
       {/* HEADER */}
       <div className="mb-5">
-        <Header name="Expenses" />
+        <Header name="Gastos" />
         <p className="text-sm text-gray-500">
         Representación visual de los gastos a lo largo del tiempo.
         </p>

@@ -6,7 +6,7 @@ import { DataGrid, GridColDef } from "@mui/x-data-grid";
 
 const columns: GridColDef[] = [
   { field: "userId", headerName: "ID", width: 90 },
-  { field: "name", headerName: "Name", width: 200 },
+  { field: "name", headerName: "Nombre", width: 200 },
   { field: "email", headerName: "Email", width: 200 },
 ];
 
@@ -14,7 +14,7 @@ const Users = () => {
   const { data: users, isError, isLoading } = useGetUsersQuery();
 
   if (isLoading) {
-    return <div className="py-4">Loading...</div>;
+    return <div className="py-4">Cargando...</div>;
   }
 
   if (isError || !users) {
@@ -25,7 +25,7 @@ const Users = () => {
 
   return (
     <div className="flex flex-col">
-      <Header name="Userio" />
+      <Header name="Usuario" />
       <DataGrid
         rows={users}
         columns={columns}
